@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=Mukta+Vaani:wght@300;400&family=Nunito:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Mukta Vaani", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Nunito", sans-serif;
+}
+
+h4,h5,h6 {
+    font-family: "Dosis", sans-serif;
+}
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Header and navigation */
+header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    height: 4.25rem;
+    box-shadow: 0 -4px 8px 5px rgba(0,0,0,0.2);
+    /* https://cssgenerator.org/box-shadow-css-generator.html */
+}
+
+header>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-link {
+    min-width: 3rem;
+    width: 4rem;
+}
+
+.logo-link img {
+    width: 100%;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.nav__item~.nav__item {
+    margin-left: 0.75em;
+}
+
+.nav__item>i {
+    font-size: 0.6rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.active {
+    color: #037f0f;
+    border-bottom: 1px solid #037f0f;
+}
