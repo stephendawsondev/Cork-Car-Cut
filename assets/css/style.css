@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Mukta Vaani", sans-serif;
+    letter-spacing: 1.15px;
 }
 
 h1,
@@ -28,8 +29,8 @@ h2 {
     font-size: 1.25rem;
 }
 
-section+section{
-    margin-top: 2em;
+section+section {
+    margin-top: 3em;
 }
 
 .container {
@@ -37,7 +38,8 @@ section+section{
     padding-right: 1em;
 }
 
-a, button {
+a,
+button {
     outline-color: #037f0f;
 }
 
@@ -102,11 +104,11 @@ main {
 #hero {
     height: 300px;
     position: relative;
-
 }
 
 .hero__image {
     background: url("../images/shoes-for-walking.jpg");
+    /* Photo by <a href="https://unsplash.com/@tylerjackharris">Tyler Harris</a> on Unsplash */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -138,4 +140,16 @@ main {
     border: none;
     border-radius: 0.25rem;
     padding: 0.25em 0.5em;
+}
+
+/* Initiative Objective Section */
+
+#initiative-objective {
+    margin-top: 5em;
+}
+
+#initiative-objective img {
+    display: block;
+    margin: 1em auto;
+    border-radius: 20% 80% 40% 60% / 89% 23% 77% 11%; /* https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/ */
 }

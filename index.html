@@ -44,14 +44,24 @@
                 <a href="#" class="btn cta">Get involved</a>
             </div>
         </section>
+        <!-- TODO - ACCESSIBILITY - See if these sections can use aria-labelledby -->
         <section id="initiative-objective">
             <div class="container">
                 <h3>What we want to change</h3>
-                <img src="" alt="" class="bubble-image">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore neque tempora esse quia et iure in
-                    sit voluptas id reiciendis.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum magnam officia aperiam laudantium
-                    aliquam optio, reprehenderit vel assumenda fugit libero!</p>
+                <picture class="bubble-image">
+                    <source media="(min-width:479px)" srcset="assets/images/traffic-in-cork-city.png">
+                    <!-- TODO - ACCESSIBILITY - Find out if it's okay to use alt tag for attribution -->
+                    <img src="assets/images/traffic-in-cork-city-small.png" alt="Vehicles driving on Cork city road - Photo by William Murphy">
+                </picture>
+                <p>Cork City is currently facing a significant issue - there are too many cars on the road. This is
+                    causing a range of problems, such as traffic congestion, increased pollution, and safety concerns.
+                    The heavy traffic flow results in long queues, causing delays and frustrations for commuters,
+                    impacting productivity. Moreover, the rise in air pollution levels poses serious health threats,
+                    particularly to the elderly and people with respiratory conditions. </p>
+                <p>The high number of cars on the road also jeopardises the safety of pedestrians, cyclists, and
+                    drivers. To tackle these issues, we need to consider sustainable solutions, such as promoting public
+                    transport, creating cycle lanes, and encouraging carpooling. By doing so, we can make Cork City a
+                    safer and more liveable place for everyone.</p>
             </div>
         </section>
         <section id="how-to-participate">
