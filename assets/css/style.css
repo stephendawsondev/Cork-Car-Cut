@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=Mukta+Vaani:wght@300;400&family=Nunito:wght@400;700&display=swap');
 
+/* Global styles */
 body {
     margin: 0;
     padding: 0;
@@ -10,10 +11,25 @@ h1,
 h2,
 h3 {
     font-family: "Nunito", sans-serif;
+    margin: 0;
 }
 
-h4,h5,h6 {
+h4,
+h5,
+h6 {
     font-family: "Dosis", sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+section+section{
+    margin-top: 2em;
 }
 
 .container {
@@ -21,14 +37,19 @@ h4,h5,h6 {
     padding-right: 1em;
 }
 
+a, button {
+    outline-color: #037f0f;
+}
+
 /* Header and navigation */
 header {
     width: 100%;
     background-color: #fff;
     position: fixed;
+    z-index: 2;
     top: 0;
     height: 4.25rem;
-    box-shadow: 0 -4px 8px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 -4px 8px 5px rgba(0, 0, 0, 0.2);
     /* https://cssgenerator.org/box-shadow-css-generator.html */
 }
 
@@ -70,4 +91,51 @@ nav>ul {
 .active {
     color: #037f0f;
     border-bottom: 1px solid #037f0f;
+}
+
+/* Main */
+main {
+    margin-top: 4.35rem;
+}
+
+/* Hero section */
+#hero {
+    height: 300px;
+    position: relative;
+
+}
+
+.hero__image {
+    background: url("../images/shoes-for-walking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.hero__text-container {
+    position: absolute;
+    color: #fff;
+    background-color: #274E13;
+    padding: 1em;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+    border-radius: 0.25rem;
+}
+
+.hero__text-container>h2 {
+    margin-top: 0.25em;
+    font-weight: normal;
+}
+
+.btn {
+    display: inline-block;
+    color: #274e13;
+    background-color: #fff;
+    margin-top: 1.5em;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.25em 0.5em;
 }
