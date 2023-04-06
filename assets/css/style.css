@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=Mukta+Vaani:wght@300;400&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Mukta+Vaani:wght@300;400;700&family=Nunito:wght@400;700;900&display=swap');
 
 /* Global styles */
-html, body { 
+html,
+body {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     margin: 0;
@@ -43,6 +44,10 @@ section+section {
     padding-right: 1em;
 }
 
+ul {
+    list-style-type: none;
+}
+
 a,
 button {
     outline-color: #037f0f;
@@ -78,7 +83,6 @@ header>.container {
 }
 
 nav>ul {
-    list-style-type: none;
     display: flex;
     align-items: center;
     font-size: 0.9rem;
@@ -196,7 +200,7 @@ main {
     float: right;
 }
 
-i ~ i {
+i~i {
     margin-right: 0.5em;
 }
 
@@ -210,4 +214,35 @@ i ~ i {
 
 .card a:hover {
     color: #037f0f;
+}
+
+/* Get social aside */
+
+aside {
+    border-top: .25rem double #000;
+    border-bottom: .25rem double #000;
+    margin-top: 3rem;
+    padding-top: 0.75em;
+    padding-bottom: 1em;
+}
+
+#get-social-container {
+    display: flex;
+    align-items: center;
+}
+
+aside h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+aside p span {
+    color: #037f0f;
+    font-weight: 700;
+}
+
+.get-social__image {
+    width: 8rem;
+    border-radius: 50%;
+    margin-left: 0.25em;
 }
