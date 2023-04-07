@@ -51,7 +51,6 @@ ul {
 a,
 button {
     outline-color: #037f0f;
-    text-decoration: none;
     color: #000;
 }
 
@@ -65,6 +64,10 @@ header {
     height: 4.25rem;
     box-shadow: 0 -4px 8px 5px rgba(0, 0, 0, 0.2);
     /* https://cssgenerator.org/box-shadow-css-generator.html */
+}
+
+header a {
+    text-decoration: none;
 }
 
 header>.container {
@@ -229,6 +232,7 @@ aside {
 #get-social-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 aside h3 {
@@ -242,7 +246,53 @@ aside p span {
 }
 
 .get-social__image {
-    width: 8rem;
-    border-radius: 50%;
-    margin-left: 0.25em;
+    width: 7.5rem;
+    border-radius: 30%;
+    margin-left: 1.25em;
+}
+
+/* Footer */
+footer {
+    font-size: 0.75rem;
+    padding-top: 3em;
+}
+
+footer h4 {
+    font-size: 0.9rem;
+}
+
+footer ul {
+    padding-left: 0;
+    color: #274E13;
+}
+
+footer p, footer a {
+    color: #274E13;
+}
+
+.footer-item {
+    width: 45%;
+}
+
+
+.social-links {
+    margin-top: 1em;
+}
+
+.social-links ul {
+    display: flex;
+    font-size: 1.25rem;
+    margin-top: 0.25em;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.council-logo {
+    float: right;
+    text-align: center;
+    clear:left;
+}
+
+.council-logo img {
+    width: 100%;
 }
