@@ -36,6 +36,10 @@ h2 {
     font-size: 1.25rem;
 }
 
+section:nth-of-type(2){
+    margin-top: 5em;
+}
+
 section+section {
     margin-top: 3em;
 }
@@ -53,7 +57,6 @@ ul {
 a,
 button {
     outline-color: #037f0f;
-    color: #000;
 }
 
 a:hover {
@@ -159,7 +162,7 @@ main {
 }
 
 /* Hero section */
-#hero {
+.hero {
     height: 300px;
     position: relative;
 }
@@ -202,11 +205,6 @@ main {
 }
 
 /* Initiative Objective Section */
-
-#initiative-objective {
-    margin-top: 5em;
-}
-
 #initiative-objective img {
     display: block;
     margin: 1em auto;
@@ -238,7 +236,7 @@ main {
     height: 6.5rem;
     margin: 1em auto;
     /* TODO - Styling - Check out the border on images later on to see how it looks */
-    /* border: 10px solid #274e13; */
+    border: 10px solid #274e13;
 }
 
 .card h4 {
@@ -346,6 +344,29 @@ footer a {
     width: 100%;
 }
 
+/* Car alternatives pages */
+.tips-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tip + .tip {
+    margin-top: 2em;
+}
+
+.tip h3 {
+    font-size: 1.5rem;
+}
+
+.tip h4 {
+    margin-top: 1em;
+    font-size: 1.25rem;
+}
+
+hr {
+    margin-top: 3em;
+}
+
 /* Media queries header,footer and homepage */
 @media screen and (min-width: 479px) {
 
@@ -366,6 +387,8 @@ footer a {
         float: right;
         margin-left: 2em;
         width: 30%;
+        /* TODO - Styling - Check out the border on images later on to see how it looks */
+        border: 10px solid #274e13;
     }
 
     /* How to participate section */
@@ -435,6 +458,10 @@ footer a {
         font-size: 1.25rem;
     }
 
+    section:nth-of-type(2){
+        margin-top: 3em;
+    }
+    
     /* Header and navigation */
     nav {
         width: 40%;
@@ -455,12 +482,7 @@ footer a {
         width: 40%;
         transform: initial;
         left: 10%;
-        bottom: 20%;
-    }
-
-    /* Initiative Objective */
-    #initiative-objective {
-        margin-top: 3em;
+        bottom: 30%;
     }
 
     /* How to participate section */
@@ -504,14 +526,13 @@ footer a {
 }
 
 @media screen and (min-width: 900px) {
-
     /* Global */
     .container {
         max-width: 1100px;
     }
 
     /* Hero section */
-    #hero {
+    .hero {
         height: 35vh;
     }
 
@@ -555,11 +576,11 @@ footer a {
 
 @media screen and (min-width: 1400px) {
     /* Hero section */
-    #hero {
+    .hero {
         height: 50vh;
     }
 
     .hero__text-container {
-        left: 35%;
+        left: 25%;
     }
 }
