@@ -11,6 +11,7 @@ body {
     padding: 0;
     font-family: "Mukta Vaani", sans-serif;
     letter-spacing: 1.15px;
+    color: #36454f;
 }
 
 h1,
@@ -54,6 +55,10 @@ button {
     color: #000;
 }
 
+a:hover {
+    color: #037f0f;
+}
+
 /* Header and navigation */
 header {
     width: 100%;
@@ -95,14 +100,51 @@ nav>ul {
     margin-left: 0.75em;
 }
 
-.nav__item>i {
-    font-size: 0.6rem;
+.nav__item i {
+    font-size: 0.7rem;
 }
 
 .active {
     color: #037f0f;
     border-bottom: 1px solid #037f0f;
 }
+
+.nav__item.dropdown {
+    position: relative;
+}
+
+.dropdown-list {
+    background-color: #fff;
+    position: absolute;
+    width: 110%;
+    right:0;
+    top: 2.25rem;
+    padding-left: 0;
+}
+
+
+a + .dropdown-list {
+    display: none;
+}
+
+a.dropdown--active + .dropdown-list {
+    display: block;
+}
+
+.dropdown__item {
+    padding: 0.75em;
+    border: 1px solid lightgrey;
+}
+
+.dropdown__item:hover {
+    background-color: #274E13;
+}
+
+.dropdown__item:hover a {
+    color: #fff;
+}
+
+
 
 /* Main */
 main {
@@ -213,10 +255,6 @@ i~i {
     margin-top: 1em;
     color: #274E13;
     line-height: 1.2;
-}
-
-.card a:hover {
-    color: #037f0f;
 }
 
 /* Get social aside */

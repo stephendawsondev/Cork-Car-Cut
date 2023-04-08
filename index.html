@@ -23,10 +23,18 @@
             <nav>
                 <ul>
                     <li class="nav__item">
-                        <a href="#" target="_blank" class="nav__link active">Home</a>
+                        <a href="/" target="_blank" class="nav__link active">Home</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#" target="_blank" class="nav__link">Getting Started</a>
+                    <li class="nav__item dropdown">
+                        <a href="#" target="_blank" class="nav__link" aria-haspopup="true" aria-expanded="false" role="button">Getting Started <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-list">
+                            <li class="dropdown__item"><a href="walk-or-roll.html" class="dropdown__link" target="_blank">Walk or Roll</a></li>
+                            <li class="dropdown__item"><a href="running.html" class="dropdown__link" target="_blank">Run</a></li>
+                            <li class="dropdown__item"><a href="cycling.html" class="dropdown__link" target="_blank">Cycle</a></li>
+                            <li class="dropdown__item"><a href="skating.html" class="dropdown__link" target="_blank">Skate</a></li>
+                            <li class="dropdown__item"><a href="public-transport.html" class="dropdown__link" target="_blank">Public Transport</a></li>
+                            <li class="dropdown__item"><a href="carpool.html" class="dropdown__link" target="_blank">Carpool</a></li>
+                        </ul>
                     </li>
                     <li class="nav__item">
                         <a href="#" target="_blank" class="nav__link">Contact</a>
@@ -78,7 +86,7 @@
                         </picture>
                         <h4>Walk or Roll <i class="fa-solid fa-wheelchair-move"></i> <i
                                 class="fa-solid fa-person-walking"></i></h4>
-                        <a href="/walk-or-roll.html" target="_blank">Click here for tips on how to get moving</a>
+                        <a href="walk-or-roll.html" target="_blank">Click here for tips on how to get moving</a>
                     </div>
                     <div class="card">
                         <picture>
@@ -179,6 +187,8 @@
             </div>
         </footer>
     </main>
+    <!-- JavaScript for dropdown -->
+    <script src="assets/js/main.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/65aa973f6f.js" crossorigin="anonymous"></script>
 </body>
