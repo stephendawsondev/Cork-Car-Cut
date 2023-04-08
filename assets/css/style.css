@@ -215,6 +215,9 @@ main {
 }
 
 /* How to participate section */
+#how-to-participate {
+    scroll-margin-top: 6em;
+}
 
 .card-container {
     display: flex;
@@ -504,7 +507,7 @@ footer a {
 
     /* Global */
     .container {
-        width: 1100px;
+        max-width: 1100px;
     }
 
     /* Hero section */
@@ -521,6 +524,22 @@ footer a {
         width: 35%;
         max-width: 25rem;
         left: 15%;
+    }
+
+    /* Initiative Objective */
+    .initiative-object__content {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    #initiative-objective img {
+        float: none;
+        width: initial;
+    }
+
+    .initiative-objective__text{
+        width: 60%;
     }
 
     /* How to participate section */
