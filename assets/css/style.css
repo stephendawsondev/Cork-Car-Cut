@@ -165,9 +165,10 @@ main {
 }
 
 .hero__image {
-    background: url("../images/shoes-for-walking.jpg");
-    /* Photo by <a href="https://unsplash.com/@tylerjackharris">Tyler Harris</a> on Unsplash */
-    background-repeat: no-repeat;
+    background: url("../images/cork-car-cut-banner-small.png") no-repeat left center;
+    /* Photo by <a href="https://unsplash.com/@jakobowens1">Jakob Owens</a> on Unsplash */
+    /* Photo by <a href="https://unsplash.com/@munbaik_cycling">Munbaik Cycling Clothing</a> on Unsplash */
+    /* Photo by <a href="https://unsplash.com/@danny_lincoln">Daniel Lincoln</a> on Unsplash */
     background-size: cover;
     height: 100%;
 }
@@ -352,6 +353,11 @@ footer a {
         max-width: 600px;
     }
 
+    /* Hero */
+    .hero__image {
+        background: url("../images/cork-car-cut-banner-medium.png") no-repeat left center;
+    }
+
     /* Initiative Objective Section */
     #initiative-objective img {
         float: right;
@@ -408,6 +414,7 @@ footer a {
 }
 
 @media screen and (min-width: 749px) {
+
     /* Global */
     .container {
         max-width: 900px;
@@ -416,7 +423,7 @@ footer a {
     h1 {
         font-size: 2.25rem;
     }
-    
+
     h2 {
         font-size: 1.5rem;
     }
@@ -436,6 +443,10 @@ footer a {
     }
 
     /* Hero section */
+    .hero__image {
+        background: url("../images/cork-car-cut-banner-large.png") no-repeat left center;
+    }
+
     .hero__text-container {
         opacity: 90%;
         width: 40%;
@@ -490,16 +501,26 @@ footer a {
 }
 
 @media screen and (min-width: 900px) {
+
     /* Global */
     .container {
         width: 1100px;
     }
 
     /* Hero section */
+    #hero {
+        height: 35vh;
+    }
+
+    .hero__image {
+        background: url("../images/cork-car-cut-banner-extra-large.png") no-repeat left center;
+        background-size: cover;
+    }
+
     .hero__text-container {
         width: 35%;
         max-width: 25rem;
-        left:15%;
+        left: 15%;
     }
 
     /* How to participate section */
@@ -515,6 +536,10 @@ footer a {
 
 @media screen and (min-width: 1400px) {
     /* Hero section */
+    #hero {
+        height: 50vh;
+    }
+
     .hero__text-container {
         left: 35%;
     }
