@@ -1,56 +1,188 @@
-<form>
-    <div>
-      <label for="first-name">First Name:</label>
-      <input type="text" id="first-name" name="first-name" required>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Get in touch with the Cork City Council regarding the Cork Car Cut initiative. You can fill out the form on this page if you have any quetions about or feedback on the initiative, or if you would like to get involved.">
+  <meta name="keywords" content="carpooling, Cork City">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/cork-city-council-logo-fav.png" type="image/x-icon">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Contact us - Cork Car Cut</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo-link" aria-label="Go to the Cork Car Cut homepage">
+        <img src="assets/images/cork-car-cut-logo.webp" alt="Cork Car Cut logo">
+      </a>
+      <nav role="navigation" aria-label="Site navigation">
+        <ul>
+          <li class="nav__item">
+            <a href="/" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item dropdown">
+            <a href="#" class="nav__link" aria-haspopup="true" aria-expanded="false" role="button">Getting
+              Started <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-list">
+              <li class="dropdown__item"><a href="walk-or-roll.html" class="dropdown__link" role="menuitem">Walk or
+                  Roll</a></li>
+              <li class="dropdown__item"><a href="running.html" class="dropdown__link" role="menuitem">Run</a></li>
+              <li class="dropdown__item"><a href="cycling.html" class="dropdown__link" role="menuitem">Cycle</a></li>
+              <li class="dropdown__item"><a href="skating.html" class="dropdown__link" role="menuitem">Skate</a></li>
+              <li class="dropdown__item"><a href="public-transport.html" class="dropdown__link" role="menuitem">Public
+                  Transport</a></li>
+              <li class="dropdown__item"><a href="carpool.html" class="dropdown__link" role="menuitem">Carpool</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="contact.html" class="nav__link active">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div>
-      <label for="last-name">Last Name:</label>
-      <input type="text" id="last-name" name="last-name" required>
+  </header>
+  <main>
+    <section class="title-section">
+      <div class="container">
+        <div class="title-section__text">
+          <h1>Contact us</h1>
+        </div>
+      </div>
+    </section>
+    <section id="form-section">
+      <div class="container">
+        <div class="content-container">
+          <div class="img-container">
+            <picture>
+              <source media="(min-width:749px)" srcset="assets/images/cork-city-hall-vertical.png">
+              <img src="assets/images/cork-city-hall.png" alt="Cork county hall building">
+            </picture>
+          </div>
+          <form action="https://formdump.codeinstitute.net/" method="POST">
+            <p>Fill out the form below and we will reply as soon as possible.</p>
+            <div class="double-field">
+              <div>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="John" required>
+              </div>
+              <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+              </div>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div>
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="083 123 4567">
+            </div>
+            <fieldset>
+              <legend>Reason for Contact</legend>
+              <div>
+                <label>
+                  <input type="radio" name="reason" value="get-started" required>
+                  Get started with alternative transport
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="reason" value="complaint">
+                  Make a complaint
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="reason" value="feedback">
+                  Provide feedback
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="reason" value="volunteer">
+                  Volunteer
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="reason" value="general">
+                  General enquiry
+                </label>
+              </div>
+            </fieldset>
+            <div>
+              <label for="message">Your message</label>
+              <textarea id="message" name="message" rows="10" placeholder="Here is my message/comment..."></textarea>
+            </div>
+            <button type="submit">Send message</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+    <section class="map">
+      <div class="container">
+        <address>
+          <p><strong>Cork City Council Address:</strong></p>
+          <p>CASP Office,</p>
+          <p>Cork City Council,</p>
+          <p>City Hall</p>
+          <p>Cork,</p>
+          <p>Ireland.</p>
+        </address>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9848.62805369559!2d-8.495752299120635!3d51.894598666982745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4844900f58d7ece7%3A0x6fa5edc96956ea63!2sCork%20City%20Council!5e0!3m2!1sen!2sie!4v1681049360055!5m2!1sen!2sie"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-item council-logo">
+        <img src="assets/images/cork-city-council-logo.png" alt="Cork city council logo">
+        <p>Proud initiative of the Cork City Council</p>
+      </div>
+      <div class="footer-item quicklinks">
+        <h4>Quicklinks</h4>
+        <ul>
+          <li>
+            <a href="https://www.corkcity.ie/" target="_blank">Cork City Council website</a>
+          </li>
+          <li>
+            <a href="https://www.nationaltransport.ie/planning-and-investment/strategic-planning/regional-metropolitan-area-transport-strategies/cork-metropolitan-area-transport-strategy/"
+              target="_blank">Cork metropolitan area transport strategy</a>
+          </li>
+          <li>
+            <a href="contact.html" target="_blank">Contact page</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-item social-links">
+        <h4>Follow us</h4>
+        <ul>
+          <li><a href="https://twitter.com/corkcitycouncil" target="_blank"
+              aria-label="Go to the Cork City Council Twitter page"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/corkcitycouncilofficial/" target="_blank"
+              aria-label="Go to the Cork City Council Facebook page"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCmRtn3cK-AoHRR09K5Us41A" target="_blank"
+              aria-label="Go to the Cork City Council YouTube channel"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    <div>
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required>
-    </div>
-    <div>
-      <label for="comment">Comment:</label>
-      <textarea id="comment" name="comment"></textarea>
-    </div>
-    <fieldset>
-      <legend>Reason for Contact:</legend>
-      <div>
-        <label>
-          <input type="radio" name="reason" value="get-started" required>
-          Get started with alternative transport
-        </label>
-      </div>
-      <div>
-        <label>
-          <input type="radio" name="reason" value="complaint">
-          Make a complaint
-        </label>
-      </div>
-      <div>
-        <label>
-          <input type="radio" name="reason" value="feedback">
-          Provide feedback
-        </label>
-      </div>
-      <div>
-        <label>
-          <input type="radio" name="reason" value="volunteer">
-          Volunteer
-        </label>
-      </div>
-      <div>
-        <label>
-          <input type="radio" name="reason" value="general">
-          General enquiry
-        </label>
-      </div>
-    </fieldset>
-    <button type="submit">Submit</button>
-  </form>
+  </footer>
+  <!-- JavaScript for dropdown -->
+  <script src="assets/js/main.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/65aa973f6f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
