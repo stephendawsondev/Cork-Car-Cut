@@ -405,6 +405,11 @@ hr {
     margin-top: 3em;
 }
 
+.tip__text ul {
+    list-style: disc;
+    margin-bottom: 1em;
+}
+
 /* Media queries header,footer and homepage */
 @media screen and (min-width: 479px) {
 
