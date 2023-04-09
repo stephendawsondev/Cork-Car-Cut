@@ -422,6 +422,7 @@ hr {
     margin: 1em auto;
     border-radius: 18% 82% 71% 29% / 70% 46% 54% 30%;
     border: 10px solid #274e13;
+    max-width: 100%;
 }
 
 label {
