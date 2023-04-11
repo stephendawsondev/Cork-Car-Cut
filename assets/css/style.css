@@ -485,6 +485,11 @@ address {
     line-height: 1;
 }
 
+.map iframe {
+    height: 450px;
+    width: 100%;
+}
+
 /* Media queries header,footer and homepage */
 @media screen and (min-width: 479px) {
 
