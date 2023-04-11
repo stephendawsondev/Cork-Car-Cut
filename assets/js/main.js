@@ -1,30 +1,36 @@
-// select menu dropdown item
 const dropdownParent = document.querySelector('.nav__item.dropdown > a');
+const dropdownList = document.querySelector('.dropdown-list');
+let dropdownActive = dropdownParent.classList.contains('dropdown--active');
 
-// add the click event listener to toggle the menu item
-dropdownParent.addEventListener('click', event => {
-    // prevent clicking the parent from navigating to a new page
-    event.preventDefault();
+const displayDropdown = () => {
+    dropdownActive = true;
+    dropdownParent.classList.add('dropdown--active');
+    dropdownParent.setAttribute('aria-expanded', 'true');
+}
 
-    let dropdownActive = dropdownParent.classList.contains('dropdown--active');
+const hideDropdown = () => {
+    dropdownActive = false;
+    dropdownParent.classList.remove('dropdown--active');
+    dropdownParent.setAttribute('aria-expanded', 'false');
+}
 
-    // if the dropdown is active then set aria-expanded to false
-    // otherwise set it to true
-    if (dropdownActive) {
-        dropdownParent.setAttribute('aria-expanded', 'false');
-    } else {
-        dropdownParent.setAttribute('aria-expanded', 'true');
+document.addEventListener('click', event => {
+    if(event.target === dropdownParent){
+        // prevent clicking the parent from navigating to a new page
+        event.preventDefault();
+
+        dropdownActive ? hideDropdown() : displayDropdown();
+    } else if(event.target !== dropdownList){
+        hideDropdown();
     }
-
-    // this adds the class if not present then removes it if it is present
-    dropdownParent.classList.toggle('dropdown--active');
+    
 });
 
 // add an event listener to the document so that the escape key closes the dropdown
 document.addEventListener('keydown', event => {
     // check if the pressed key is the escape key
     if (event.key === "Escape") {
-        dropdownParent.classList.remove('dropdown--active');
-        dropdownParent.setAttribute('aria-expanded', 'false');
+        hideDropdown();
     }
 });
+
