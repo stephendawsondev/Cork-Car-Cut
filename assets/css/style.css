@@ -72,7 +72,7 @@ header {
     top: 0;
     height: 4.25rem;
     box-shadow: 0 -4px 8px 5px rgba(0, 0, 0, 0.2);
-    /* https://cssgenerator.org/box-shadow-css-generator.html */
+    /* Box shadow generated on https://cssgenerator.org/box-shadow-css-generator.html */
 }
 
 header a {
@@ -175,9 +175,11 @@ main {
 
 .hero__image {
     background: url("../images/cork-car-cut-banner-small.png") no-repeat left center;
-    /* Photo by <a href="https://unsplash.com/@jakobowens1">Jakob Owens</a> on Unsplash */
-    /* Photo by <a href="https://unsplash.com/@munbaik_cycling">Munbaik Cycling Clothing</a> on Unsplash */
-    /* Photo by <a href="https://unsplash.com/@danny_lincoln">Daniel Lincoln</a> on Unsplash */
+    /* Photos by:
+        <a href="https://unsplash.com/@jakobowens1">Jakob Owens</a> on Unsplash
+        <a href="https://unsplash.com/@munbaik_cycling">Munbaik Cycling Clothing</a> on Unsplash
+        <a href="https://unsplash.com/@danny_lincoln">Daniel Lincoln</a> on Unsplash 
+    */
     background-size: cover;
     height: 100%;
 }
@@ -215,7 +217,7 @@ main {
     display: block;
     margin: 1em auto;
     border-radius: 20% 80% 40% 60% / 89% 23% 77% 11%;
-    /* https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/ */
+    /* border by https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/ */
 }
 
 /* How to participate section */
@@ -241,7 +243,6 @@ main {
     border-radius: 82% 18% 29% 71% / 46% 70% 30% 54%;
     height: 6.5rem;
     margin: 1em auto;
-    /* TODO - Styling - Check out the border on images later on to see how it looks */
     border: 10px solid #274e13;
 }
 
@@ -510,7 +511,6 @@ address {
         float: right;
         margin-left: 2em;
         width: 30%;
-        /* TODO - Styling - Check out the border on images later on to see how it looks */
         border: 10px solid #274e13;
     }
 
@@ -610,7 +610,7 @@ address {
         width: 40%;
         transform: initial;
         left: 10%;
-        bottom: 20%;
+        bottom: 13%;
     }
 
     /* How to participate section */
@@ -711,6 +711,7 @@ address {
         width: 35%;
         max-width: 25rem;
         left: 15%;
+        bottom: 20%;
     }
 
     /* Initiative Objective */
