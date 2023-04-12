@@ -36,6 +36,10 @@ h2 {
     font-size: 1.25rem;
 }
 
+p {
+    line-height: 2;
+}
+
 section:nth-of-type(2) {
     margin-top: 5em;
 }
@@ -57,6 +61,7 @@ ul {
 a,
 button {
     outline-color: #037f0f;
+    text-decoration: none;
 }
 
 a:hover {
@@ -76,7 +81,6 @@ header {
 }
 
 header a {
-    text-decoration: none;
     color: inherit;
 }
 
@@ -84,12 +88,12 @@ header>.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .logo-link {
     min-width: 3rem;
-    width: 6rem;
-    margin-top: 0.5em;
+    width: 4rem;
 }
 
 .logo-link img {
@@ -99,7 +103,7 @@ header>.container {
 nav>ul {
     display: flex;
     align-items: center;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     padding-left: 1.25em;
 }
 
@@ -174,7 +178,7 @@ main {
 }
 
 .hero__image {
-    background: url("../images/cork-car-cut-banner-small.png") no-repeat left center;
+    background: url("../images/cork-car-cut-banner-small.webp") no-repeat left center;
     /* Photos by:
         <a href="https://unsplash.com/@jakobowens1">Jakob Owens</a> on Unsplash
         <a href="https://unsplash.com/@munbaik_cycling">Munbaik Cycling Clothing</a> on Unsplash
@@ -206,7 +210,6 @@ main {
     color: #274e13;
     background-color: #fff;
     margin-top: 1.5em;
-    text-decoration: none;
     border: none;
     border-radius: 0.25rem;
     padding: 0.25em 0.5em;
@@ -216,6 +219,7 @@ main {
 #initiative-objective img {
     display: block;
     margin: 1em auto;
+    border: 10px solid #274e13;
     border-radius: 20% 80% 40% 60% / 89% 23% 77% 11%;
     /* border by https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/ */
 }
@@ -241,23 +245,24 @@ main {
     box-sizing: border-box;
     max-width: 100%;
     border-radius: 82% 18% 29% 71% / 46% 70% 30% 54%;
-    height: 6.5rem;
+    height: 4.5rem;
     margin: 1em auto;
     border: 10px solid #274e13;
 }
 
 .card h4 {
     margin-top: 0.75em;
+    font-size: 0.9rem;
 }
 
 .card h4 i {
-    font-size: 1.25rem;
+    font-size: 1rem;
     float: right;
 }
 
 .card h4 svg {
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 1rem;
+    height: 1rem;
     float: right;
 }
 
@@ -270,7 +275,7 @@ i~i {
     display: inline-block;
     margin-top: 1em;
     color: #274E13;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 /* Get social aside */
@@ -289,7 +294,7 @@ aside {
 }
 
 aside h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
@@ -328,6 +333,9 @@ footer a {
     width: 45%;
 }
 
+.quicklinks li {
+    margin-top: 0.75em;
+}
 
 .social-links {
     margin-top: 1em;
@@ -429,19 +437,13 @@ hr {
 
 label {
     display: block;
-    margin-top: 0.75em;
+    margin-top: 1em;
 }
 
-.double-field {
-    display: flex;
-}
-
-.double-field div {
-    width: 48%;
-}
-
-.double-field>div+div {
-    margin-left: auto;
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    height: 2rem;
 }
 
 input[type="text"],
@@ -473,7 +475,7 @@ form button {
     font-size: inherit;
     font-family: inherit;
     display: block;
-    margin-left: auto;
+    width: 100%;
     border: none;
     padding: 1em 2em;
     background-color: #274e13;
@@ -481,8 +483,10 @@ form button {
 }
 
 address {
-    text-align: center;
     font-style: normal;
+}
+
+address p {
     line-height: 1;
 }
 
@@ -501,9 +505,15 @@ address {
         max-width: 600px;
     }
 
+    /* Header */
+    .logo-link {
+        width: 6rem;
+        margin-top: 0.5em;
+    }
+
     /* Hero */
     .hero__image {
-        background: url("../images/cork-car-cut-banner-medium.png") no-repeat left center;
+        background: url("../images/cork-car-cut-banner-medium.webp") no-repeat left center;
     }
 
     /* Initiative Objective Section */
@@ -511,7 +521,6 @@ address {
         float: right;
         margin-left: 2em;
         width: 30%;
-        border: 10px solid #274e13;
     }
 
     /* How to participate section */
@@ -520,7 +529,28 @@ address {
         padding: 0 1em;
     }
 
+    .card img {
+        height: 6.5rem;
+    }
+
+    .card h4 {
+        font-size: 1;
+    }
+
+    .card h4 i {
+        font-size: 1.25rem;
+    }
+
+    .card h4 svg {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
     /* Get social aside */
+    aside h3 {
+        font-size: 1.75rem;
+    }
+
     #get-social-container {
         justify-content: center;
     }
@@ -602,7 +632,7 @@ address {
 
     /* Hero section */
     .hero__image {
-        background: url("../images/cork-car-cut-banner-large.png") no-repeat left center;
+        background: url("../images/cork-car-cut-banner-large.webp") no-repeat left center;
     }
 
     .hero__text-container {
@@ -688,6 +718,23 @@ address {
     #form-section .img-container img {
         max-width: initial;
     }
+
+    .double-field {
+        display: flex;
+    }
+
+    .double-field div {
+        width: 48%;
+    }
+
+    .double-field>div+div {
+        margin-left: auto;
+    }
+
+    form button {
+        width: initial;
+        margin-left: auto;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -697,13 +744,18 @@ address {
         max-width: 1100px;
     }
 
+    /* Header */
+    nav {
+        width: 35%;
+    }
+
     /* Hero section */
     .hero {
         height: 35vh;
     }
 
     .hero__image {
-        background: url("../images/cork-car-cut-banner-extra-large.png") no-repeat left center;
+        background: url("../images/cork-car-cut-banner-extra-large.webp") no-repeat left center;
         background-size: cover;
     }
 
