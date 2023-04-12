@@ -484,6 +484,8 @@ form button {
 
 address {
     font-style: normal;
+    text-align: center;
+    margin: 3em auto;
 }
 
 address p {
