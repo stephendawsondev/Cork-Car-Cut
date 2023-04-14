@@ -219,7 +219,7 @@ main {
 #initiative-objective img {
     display: block;
     margin: 1em auto;
-    border: 10px solid #274e13;
+    border: 5px solid #274e13;
     border-radius: 20% 80% 40% 60% / 89% 23% 77% 11%;
     /* border by https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/ */
 }
@@ -247,7 +247,7 @@ main {
     border-radius: 82% 18% 29% 71% / 46% 70% 30% 54%;
     height: 4.5rem;
     margin: 1em auto;
-    border: 10px solid #274e13;
+    border: 5px solid #274e13;
 }
 
 .card h4 {
@@ -431,7 +431,7 @@ hr {
     display: block;
     margin: 1em auto;
     border-radius: 18% 82% 71% 29% / 70% 46% 54% 30%;
-    border: 10px solid #274e13;
+    border: 5px solid #274e13;
     max-width: 100%;
 }
 
@@ -654,6 +654,7 @@ address p {
 
     .card img {
         height: 8rem;
+        border: 10px solid #274e13;
     }
 
     .card h4 {
@@ -733,6 +734,10 @@ address p {
         margin-left: auto;
     }
 
+    #form-section img {
+        border: 10px solid #274e13;
+    }
+
     form button {
         width: initial;
         margin-left: auto;
@@ -778,6 +783,7 @@ address p {
     #initiative-objective img {
         float: none;
         width: initial;
+        border: 10px solid #274e13;
     }
 
     .initiative-objective__text {
