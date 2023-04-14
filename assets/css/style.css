@@ -356,7 +356,8 @@ footer a {
 }
 
 .council-logo img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Car alternatives pages */
