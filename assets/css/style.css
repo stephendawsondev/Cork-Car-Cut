@@ -221,6 +221,8 @@ main {
     margin: 1em auto;
     border: 5px solid #274e13;
     border-radius: 20% 80% 40% 60% / 89% 23% 77% 11%;
+    max-width: 100%;
+    height: auto;
     /* border by https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/ */
 }
 
@@ -240,12 +242,16 @@ main {
     margin-top: 1em;
 }
 
+.card__image-container {
+    height: 7rem;
+}
+
 .card img {
     display: block;
     box-sizing: border-box;
     max-width: 100%;
     border-radius: 82% 18% 29% 71% / 46% 70% 30% 54%;
-    height: 4.5rem;
+    height: auto;
     margin: 1em auto;
     border: 5px solid #274e13;
 }
@@ -499,6 +505,13 @@ address p {
 }
 
 /* Media queries header,footer and homepage */
+@media screen and (min-width: 350px) {
+    /* How to participate section */
+    .card__image-container {
+        height: 8.5rem;
+    }
+}
+
 @media screen and (min-width: 479px) {
 
     /* Global */
@@ -532,8 +545,8 @@ address p {
         padding: 0 1em;
     }
 
-    .card img {
-        height: 6.5rem;
+    .card__image-container {
+        height: 10rem;
     }
 
     .card h4 {
@@ -653,8 +666,11 @@ address p {
         width: 30%;
     }
 
+    .card__image-container {
+        height: 13rem;
+    }
+
     .card img {
-        height: 8rem;
         border: 10px solid #274e13;
     }
 
@@ -791,9 +807,9 @@ address p {
         width: 60%;
     }
 
-    /* How to participate section */
-    .card img {
-        height: 11rem;
+    /* How to participate */
+    .card__image-container {
+        height: 15rem;
     }
 
     /* Get social aside */
