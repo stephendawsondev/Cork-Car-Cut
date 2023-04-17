@@ -97,7 +97,8 @@ header>.container {
 }
 
 .logo-link img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 nav>ul {
@@ -506,6 +507,7 @@ address p {
 
 /* Media queries header,footer and homepage */
 @media screen and (min-width: 350px) {
+
     /* How to participate section */
     .card__image-container {
         height: 8.5rem;
