@@ -12,28 +12,26 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, I want to understand the main purpose of the initiative and how it can benefit me.
+        2. As a First Time Visitor, I want to easily navigate through the site to find relevant information about the different forms of alternative transport available.
+        3. As a First Time Visitor, I want to see the organization's (Cork City Council) social media presence to gauge its trustworthiness.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to easily find a way to contact the organizers of the initiative in case I have any questions or suggestions.
+        2. As a Returning Visitor, I want to quickly navigate to the different forms of alternative transport pages that suit my needs.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to stay informed about new alternative forms of transport that are added to the initiative.
+        2. As a Frequent User, I want to see updated resources on my most suited forms of alternate transport.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The two main colours used are light and dark green, which are associated with the environment. The tone of the initiative is environmental, so the colours work well.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   Since it is a Government website, I felt the fonts needed to be simple and readable. I chose "Mukta Vaani" as the body font for its legibility and readability. "Nunito" was selected as the h1-h3 header fonts, while "Dosis" was chosen for the h4-h6 header fonts. All three fonts have Sans Serif as a fallback for consistency and compatibility purposes.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The images used help the user understand what the initiative is about quickly. The homepage hero banner is shows two alternate forms of transport on mobile and three on large screen sizes. There are also images with each alternative form of transport card so that it is easy to discern what each is for. All accompanying images also have a unique border radii, resembling car wing mirrors, which serve to add some character to the site.
 
 *   ### Wireframes
 
@@ -46,7 +44,9 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 ## Features
 
 -   Responsive on all device sizes
-
+-   Clean and user-friendly interface design
+-   Fast loading speed
+-   Clear and concise navigation
 -   Accessible
 
 ## Technologies Used
@@ -81,77 +81,102 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/)
+-   [W3C Markup Validator:](https://validator.w3.org/)
+    <details><summary>Homepage (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/accessibility-images/homepage.png">
+    </details>
+    <details><summary>Walk or roll page (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/accessibility-images/walk-or-roll.png">
+    </details>
+    <details><summary>Running page (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/accessibility-images/running.png">
+    </details>
+    <details><summary>Cycling page (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/accessibility-images/cycling.png">
+    </details>
+    <details><summary>Skating page (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/accessibility-images/skating.png">
+    </details>
+    <details><summary>Public Transport page (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/accessibility-images/public-transport.png">
+    </details>
+    <details><summary>Carpool page (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/accessibility-images/carpool.png">
+    </details>
+    <details><summary>Contact page (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/accessibility-images/contact.png">
+    </details>
+
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fstephendawsondev.github.io%2FCork-Car-Cut%2F&usermedium=all&vextwarning=&warning=1)
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to understand the main purpose of the initiative and how it can benefit me.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        1. Upon entering the site, users are presented with a hero image that has 2-3 images of alternative forms of transport, depending on the screen size. There is also an overlay (or semi-overlay on mobile) that has the clear and concise name "Cork Car Cut" with a clarifying subheading and a call-to-action button.
+        2. The main point is made immediately with the hero image and its text overlay.
+        3. The user can click the call to action button to scroll to the how to parcipate section to get started quickly, they can scroll through the site normally, or they can use the navigation menu items. 
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    2. As a First Time Visitor, I want to easily navigate through the site to find relevant information about the different forms of alternative transport available.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. The site allows users to quickly navigate using the navigation menu items to find the different alternative transport methods to get started, or they can arrive there by scrolling down and coming to the "How to participate" section.
+        2. The header is sticky so that even if the user scrolls down too far, they can always use the navigation menu to go where they want. The navigation and logo both go to the homepage, and leaving "Home" as a menu item was deliberate so the user doesn't feel stuck.
+        3. The footer also contains a link to the contact page as the footer is often where you find policy and contact information. When the user gets to the footer, they can easily click the link if they want to contact Cork City Council for more information.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    3. As a First Time Visitor, I want to see the organization's (Cork City Council) social media presence to gauge its trustworthiness.
+        1. In the footer, I have included the Cork City Council logo and a caption that the initiative is from the Cork City Council. 
+        2. In the footer, there are also links to the Cork City Council's website, one of their resources on transportation and social icons that lead to their social media pages.
+        3. On the Contact page, there is also an image of Cork City Hall, where the City Council meet, as well as the Cork City Countcil's address.
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to easily find a way to contact the organizers of the initiative in case I have any questions or suggestions.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+        1. The header navigation and footer both contain a link to the Contact page so that the user can easily navigate there.
+        2. The footer contains social media links so that the user can find the relevant social media accounts of the City Council.
+        3. On the Contact page, they can use a contact form to send a message to the City Council, and also they can find the address and accompanying map below the contact form.
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    2. As a Returning Visitor, I want to quickly navigate to the different forms of alternative transport pages that suit my needs.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+        1. The call-to-action button scrolls down to the "How to partipate" section, which has all the alternative forms of transport and accompanying images for clarity.
+        2. The header is sticky so that wherever the user is on the page, it is accessible. The header contains a dropdown with all the alternative forms of transport available.
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+    1. As a Frequent User, I want to stay informed about new alternative forms of transport that are added to the initiative.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        1. They new forms of alternative transform would be added to the navigation menu.
+        2. New forms of transport can also be found in the "How to participate" section.
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    2. As a Frequent User, I want to see updated resources on my most suited forms of alternate transport.
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+        1. On each alternative-transport page, there are some suggestions of how to get involved that related to that particular form of transport. The user can refer here to get see any additional resources related to that form of transport.
+        2. The user has an option to get more information on the contact form by clicking the appropriate radio button.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   The Website was tested on Google Chrome, Mozilla Firefox and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop and iPhone 8 and 11.
+-   The form was tested to ensure it was submitting correctly
+-   Page links were test to ensure they opened in new tabs when necessary and to the correct destinations, or didn't open in new tabs to the correct destination.
+-   Family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Bugs encountered
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+- The header was overlapping my section title when I used the scroll to section. I was able to resolve it by using the `scroll-margin-top` CSS property, which I learned about on the [MDN Website](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-top).
+- For the dropdown menu in the navigation, the JavaScript I had was using the `toggleAttribute` method, but it was removing the `aria-expanded` attribute instead of setting it to false. I resolved that by using `setAttribute` instead of `toggleAttribute` since I was able to specify its value.
+- On my product cards, the images were overflowing their container when I added a border to them. I fixed this bug by adding `box-sizing: border-box` to them so that it factored in the width of the border too.
+- The image in the "What we want to change" section was running over into the section below it on larger screen sizes. I found this was because the image was using float, so I instead used flexbox for its layout on larger screen sizes.
 
 ## Deployment
 
@@ -159,25 +184,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [Cork Car Cut Github Repository](https://github.com/stephendawsondev/Cork-Car-Cut)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now [published site](https://stephendawsondev.github.io/Cork-Car-Cut) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [Cork Car Cut Github Repository](https://github.com/stephendawsondev/Cork-Car-Cut)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [Cork Car Cut Github Repository](https://github.com/stephendawsondev/Cork-Car-Cut)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -185,13 +209,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/stephendawsondev/Cork-Car-Cut
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/stephendawsondev/Cork-Car-Cut
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -199,23 +223,21 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+[Click here to retrieve pictures for some of the buttons and more detailed explanations of the cloning process](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
 ## Credits
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [Box Shadow Generator](https://cssgenerator.org/box-shadow-css-generator.html) was used to generate the box shadow for the sticky header
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- [Fancy Border Radius Generator](https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/) was used to create the unusal accompanying image shapes that were used on the homepage and contact page.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [MDN Web Docs](https://developer.mozilla.org/) : For the contact forms structre for the radio buttons and their labels in the contact form.
 
 ### Content
 
 -   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
@@ -224,5 +246,3 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.

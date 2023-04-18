@@ -58,6 +58,10 @@ ul {
     list-style-type: none;
 }
 
+a {
+    color: #274E13;
+}
+
 a,
 button {
     outline-color: #037f0f;
