@@ -37,9 +37,9 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   [View Homepage Desktop and Mobile Wireframe](assets/images/readme-images/Homepage.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   [View Car Alternatives page Wireframe](assets/images/readme-images/Car-alternatives.png)
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
 
