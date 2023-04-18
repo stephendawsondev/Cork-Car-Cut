@@ -2,9 +2,9 @@
 
 [Click here to view the live Cork Car Cut Website.](https://stephendawsondev.github.io/Cork-Car-Cut)
 
-The Cork Car Cut is an initiative from the Cork City Council to encourage car users to reduce their car usage. The project sets out to provide a number of alternative transport methods that Cork City citizens can use instead of their cars.  
+The Cork Car Cut is an initiative from the Cork City Council to encourage car users to reduce their car usage. The project sets out to provide a number of alternative transport methods that Cork City citizens can use instead of their cars. Since it is a Government initiative, the site is aimed at all ages and social groups.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.webp"></h2>
+<h2 align="center"><img src="assets/images/readme-images/responsive-devices.png"></h2>
 
 ## User Experience (UX)
 
@@ -37,17 +37,17 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 
 *   ### Wireframes
 
-    -   [View Homepage Desktop and Mobile Wireframe](assets/images/readme-images/Homepage.png)
+    -   [View Homepage Desktop and Mobile Wireframe](assets/images/readme-images/wireframes/Homepage.png)
 
-    -   [View Car Alternatives page Wireframe](assets/images/readme-images/Car-alternatives.png)
+    -   [View Car Alternatives page Wireframe](assets/images/readme-images/wireframes/Car-alternatives.png)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   [View Contact Us Page Wireframe](assets/images/readme-images/wireframes/Contact-page.png)
 
 ## Features
 
 -   Responsive on all device sizes
 
--   Interactive elements
+-   Accessible
 
 ## Technologies Used
 
@@ -55,34 +55,34 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+1. [Canva:](https://www.canva.com/)
+    - Canva was used to make the Cork Car Cut logo.
+2. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Mukta Vaani', 'Nunito' and 'Dosis' fonts into the style.css file which are used on all pages throughout the project.
+3. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add social icons to the footer and a chevron to the header, as well as icons for the car-alternative cards on the homepage for aesthetic and UX purposes.
+4. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod (and briefly Code Anywhere) terminal to commit to Git and Push to GitHub.
+5. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-
+6. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](assets/images/readme-images/wireframes) during the design process.
+7. [Box Shadow Generator:](https://cssgenerator.org/box-shadow-css-generator.html)
+    - Used to generate the box shadow for the sticky header
+8. [Fancy Border Radius Generator:](https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/)
+    - Fancy border radius generator was used to create the unusal accompanying image shapes that were used on the homepage and contact page.
+9. [SVG Repo:](https://www.svgrepo.com/)
+    - SVG Repo was used once for the icon of the skateboarder, which wasn't available on FontAwesome.
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fstephendawsondev.github.io%2FCork-Car-Cut%2F&usermedium=all&vextwarning=&warning=1)
 
 ### Testing User Stories from User Experience (UX) Section
 

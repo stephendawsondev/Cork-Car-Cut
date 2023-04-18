@@ -77,7 +77,6 @@ header {
     top: 0;
     height: 4.25rem;
     box-shadow: 0 -4px 8px 5px rgba(0, 0, 0, 0.2);
-    /* Box shadow generated on https://cssgenerator.org/box-shadow-css-generator.html */
 }
 
 header a {
@@ -224,7 +223,6 @@ main {
     border-radius: 20% 80% 40% 60% / 89% 23% 77% 11%;
     max-width: 100%;
     height: auto;
-    /* border by https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/ */
 }
 
 /* How to participate section */
