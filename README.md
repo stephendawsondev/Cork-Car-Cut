@@ -33,14 +33,19 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
     -   #### Imagery
         -   The images used help the user understand what the initiative is about quickly. The homepage hero banner is shows two alternate forms of transport on mobile and three on large screen sizes. There are also images with each alternative form of transport card so that it is easy to discern what each is for. All accompanying images also have a unique border radii, resembling car wing mirrors, which serve to add some character to the site.
 
-*   ### Wireframes
+### Wireframes
+<details><summary>Homepage Desktop and Mobile Wireframe (Click to expand)</summary>
+    <img src="assets/images/readme-images/wireframes/homepage.png">
+</details>
 
-    -   [View Homepage Desktop and Mobile Wireframe](assets/images/readme-images/wireframes/Homepage.png) (Scroll right on the image to see the mobile wireframe)
+<details><summary>Car Alternatives page Wireframe (Click to expand)</summary>
+    <img src="assets/images/readme-images/wireframes/car-alternatives.png">
+</details>
 
-    -   [View Car Alternatives page Wireframe](assets/images/readme-images/wireframes/Car-alternatives.png)
-
-    -   [View Contact Us Page Wireframe](assets/images/readme-images/wireframes/Contact-page.png)
-
+<details><summary>Contact Us Page Wireframe (Click to expand)</summary>
+    <img src="assets/images/readme-images/wireframes/Contact-page.png">
+</details>
+<br>
 ## Features
 
 -   Responsive on all device sizes
@@ -48,6 +53,8 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 -   Fast loading speed
 -   Clear and concise navigation
 -   Accessible
+
+<br>
 
 ### Site sections
 <details><summary>Sticky header (Click to expand)</summary>
@@ -99,6 +106,7 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
     <img src="assets/images/readme-images/features/contact-address-and-map.png">
 </details>
 
+<br>
 
 ## Technologies Used
 
