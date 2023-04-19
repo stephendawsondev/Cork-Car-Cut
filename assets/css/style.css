@@ -183,11 +183,6 @@ main {
 
 .hero__image {
     background: url("../images/cork-car-cut-banner-small.webp") no-repeat left center;
-    /* Photos by:
-        <a href="https://unsplash.com/@jakobowens1">Jakob Owens</a> on Unsplash
-        <a href="https://unsplash.com/@munbaik_cycling">Munbaik Cycling Clothing</a> on Unsplash
-        <a href="https://unsplash.com/@danny_lincoln">Daniel Lincoln</a> on Unsplash 
-    */
     background-size: cover;
     height: 100%;
 }

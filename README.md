@@ -65,7 +65,7 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
     - Google fonts were used to import the 'Mukta Vaani', 'Nunito' and 'Dosis' fonts into the style.css file which are used on all pages throughout the project.
 3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add social icons to the footer and a chevron to the header, as well as icons for the car-alternative cards on the homepage for aesthetic and UX purposes.
-4. [Git](https://git-scm.com/)
+4. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod (and briefly Code Anywhere) terminal to commit to Git and Push to GitHub.
 5. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
@@ -116,6 +116,78 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     </details>
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fstephendawsondev.github.io%2FCork-Car-Cut%2F&usermedium=all&vextwarning=&warning=1)
+
+### Testing Performance
+
+I used the [Pagespeed Insights tool](https://pagespeed.web.dev/) to check the my website's speed, best practices and accessibility. Here are the results:
+
+#### Mobile:
+<details><summary>Homepage - Mobile (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/homepage-mobile.png">
+    </details>
+    <details><summary>Walk or roll page - Mobile (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/walk-or-roll-mobile.png">
+    </details>
+    <details><summary>Running page - Mobile (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/running-mobile.png">
+    </details>
+    <details><summary>Cycling page - Mobile (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/cycling-mobile.png">
+    </details>
+    <details><summary>Skating page - Mobile (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/skating-mobile.png">
+    </details>
+    <details><summary>Public Transport page - Mobile (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/public-transport-mobile.png">
+    </details>
+    <details><summary>Carpool page - Mobile (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/carpool-mobile.png">
+    </details>
+    <details><summary>Contact page - Mobile (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/contact-mobile.png">
+</details>
+
+#### Desktop:
+<details><summary>Homepage - Desktop (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/homepage-desktop.png">
+    </details>
+    <details><summary>Walk or roll page - Desktop (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/walk-or-roll-desktop.png">
+    </details>
+    <details><summary>Running page - Desktop (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/running-desktop.png">
+    </details>
+    <details><summary>Cycling page - Desktop (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/cycling-desktop.png">
+    </details>
+    <details><summary>Skating page - Desktop (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/skating-desktop.png">
+    </details>
+    <details><summary>Public Transport page - Desktop (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/public-transport-desktop.png">
+    </details>
+    <details><summary>Carpool page - Desktop (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/carpool-desktop.png">
+    </details>
+    <details><summary>Contact page - Desktop (Click to expand)</summary>
+    <br>
+    <img src="assets/images/readme-images/performance/contact-desktop.png">
+</details>
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -170,6 +242,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The form was tested to ensure it was submitting correctly
 -   Page links were test to ensure they opened in new tabs when necessary and to the correct destinations, or didn't open in new tabs to the correct destination.
 -   Family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   I made sure that I was able to use the website on the keyboard for accessibility testing.
 
 ### Bugs encountered
 
@@ -237,12 +310,62 @@ $ git clone https://github.com/stephendawsondev/Cork-Car-Cut
 
 ### Content
 
--   All content was written by the developer.
+-   Walk or Roll page
+    - Outdoor Adventure Store content from [Outdoor Adventure Store website](https://outdooradventurestore.ie/)
+    - Cork City Walks content from the [CorkCity.ie website](https://www.corkcity.ie/en/things-to-do/parks-outdoors/cork-city-walks/)
+    - Cork Walking Meetup Group content from [Cork Walking Meetup group on Meetup](https://www.meetup.com/cork-walking-meetup-group/)
+-   Running page
+    - The Edge Sports content from the [The Edge Sports Superstore website](https://www.theedge-sports.com/)
+    - C25K programme content from the [NHS Website](https://www.nhs.uk/live-well/exercise/running-and-aerobic-exercises/get-running-with-couch-to-5k/)
+    - Togher AC Fit4Life content from the [Togher AC Fit4Life Meetup group](https://www.meetup.com/TogherACFit4Life/)
+- Cycling page
+    - The Bike Shed content from the [The Bike Shed website](http://thebikeshed.ie/)
+    - Cork Sports partnership content from the [Cork Sports partnership Website](https://www.corksports.ie/)
+    - The Rebel Pedals content from the [The Rebel Pedals Meetup group](https://www.meetup.com/the-rebel-pedals/)
+- Skateboarding page
+    - Crazy Monkey content from the [Crazy Monkey website](https://www.crazymonkey.ie/product-category/skate/)
+    - Go Skate content from the [Cork Sports partnership Website](https://www.goskate.com/go/cork-ireland-skateboard-lessons-skateboard-lessons)
+- Public Transport page
+    - Leap Card content from [Leap Card website](https://www.leapcard.ie/Home/index.html)
+    - Transport for Ireland content from [Leap Card website](https://www.transportforireland.ie/plan-a-journey/)
+- Carpool page
+    - CarpoolWorld content from [CarpoolWorld website](https://www.carpoolworld.com/carpool.html?form_language=EN&olat=&olon=&lat=&lon=&home_street=&hf=Cork)
+    - GetThere.ie content from [GetThere.ie website](https://getthere.ie/)
 
 ### Media
 
--   All Images were created by the developer.
+- Homepage banner image made up of three images from:
+    - <a href="https://unsplash.com/@jakobowens1">Jakob Owens</a> on Unsplash
+    - <a href="https://unsplash.com/@munbaik_cycling">Munbaik Cycling Clothing</a> on Unsplash
+    - <a href="https://unsplash.com/@danny_lincoln">Daniel Lincoln</a> on Unsplash 
+- <a href="assets/images/traffic-in-cork-city-small.webp" target="_blank">Photo of Cork City by William Murphy - Image was cropped</a>
+- <a href="assets/images/bus-eireann-small.webp" target="_blank">Image from CitySwift on Flickr - Image was cropped slightly to show the bus</a>
+- Social icons image on homepages by Bastian Riccardi (Unsplash)
+- Other card images from [PickPik](https://www.pickpik.com/)
+- Cork City Council Logo from [Cork City Council Website](https://www.corkcity.ie/en/)
+
+-   Walk or Roll page
+    - Outdoor Adventure Store logo from [Outdoor Adventure Store website](https://outdooradventurestore.ie/)
+    - Meetup logo from [Meetup](https://www.meetup.com/media/)
+-   Running page
+    - The Edge Sports logo from the [The Edge Sports Superstore website](https://www.theedge-sports.com/)
+- Cycling page
+    - The Bike Shed logo from the [The Bike Shed website](http://thebikeshed.ie/)
+    - Cork Sports partnership logo from the [Cork Sports partnership Website](https://www.corksports.ie/)
+- Skateboarding page
+    - Crazy Monkey logo from the [Crazy Monkey website](https://www.crazymonkey.ie/product-category/skate/)
+    - Go Skate logo from the [Go Skate Website](https://www.goskate.com/go/cork-ireland-skateboard-lessons-skateboard-lessons)
+- Public Transport page
+    - Leap Card content from [Leap Card website](https://www.leapcard.ie/Home/index.html)
+    - Transport for Ireland content from [Transport for Ireland website](https://www.transportforireland.ie/plan-a-journey/)
+- Carpool page
+    - CarpoolWorld logo from [CarpoolWorld website](https://www.carpoolworld.com/carpool.html?form_language=EN&olat=&olon=&lat=&lon=&home_street=&hf=Cork)
+    - GetThere.ie logo from [GetThere.ie website](https://getthere.ie/)
+
+- All other images are royalty free and taken from [PickPik](https://www.pickpik.com/)
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
+-   My Code Institute team for feedback on the project.
+-   The Code Institute #peer-code-review channel for feedback.  
