@@ -51,43 +51,49 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 
 ### Site sections
 <details><summary>Sticky header (Click to expand)</summary>
+    <br>
     The sticky header contains three menu items. One item is a dropdown item. It uses a small bit of JavaScript, which was a requirement to make it accessible. The user can use the `Escape` key to dismiss the dropdown menu. The sticky header also stays on the page as the user scrolls, so it is always there when they need it.
     <br>
     <img src="assets/images/readme-images/features/sticky-header.png">
 </details>
 <details><summary>Homepage hero image and text box (Click to expand)</summary>
+    <br>
     The homepage hero image helps the user understand what the site is about right when they access it. The images used show that the forms of transport being used are cycling, walking and skateboarding. The text box also helps the user understand what the site is about by using the **Cork Car Cut** heading and a subheading explaining what the initiative is about.
     <br>
     <img src="assets/images/readme-images/features/homepage-hero.png">
 </details>
 <details><summary>What to change section (Click to expand)</summary>
+    <br>
     The "What we want to change" section provides the user with context as to what the the problem is and why we should solve it.
     <br>
     <img src="assets/images/readme-images/features/what-to-change-section.png">
 </details>
 <details><summary>How to participate section (Click to expand)</summary>
-    The "How to participate" section provides the user with 6 ways of travelling without driving themselves. The first point is walk or roll, to accomodate wheelchair users, then we have skating for younger people (or skaters) as well as running and cycling for everyone. It also shows public transport and carpooling as methods of transport, since they still contribute to fewer cars on the road.
-
-    User this section, the user can navigate to each alternative transport's individual page.
+    <br>
+    The "How to participate" section provides the user with 6 ways of travelling without driving themselves. The first point is walk or roll, to accomodate wheelchair users, then we have skating for younger people (or skaters) as well as running and cycling for everyone. It also shows public transport and carpooling as methods of transport, since they still contribute to fewer cars on the road. Using this section, the user can navigate to each alternative transport's individual page.
     <br>
     <img src="assets/images/readme-images/features/how-to-participate-section.png">
 </details>
 <details><summary>Footer (Click to expand)</summary>
+    <br>
     The footer serves to show that the intiative is by the Cork City Council. It also provides some useful related links and to the contact page. Social links to the Cork City Council's social pages are also there. 
     <br>
     <img src="assets/images/readme-images/features/footer.png">
 </details>
 <details><summary>Alternative transport tips section (Click to expand)</summary>
+    <br>
     On each alternative form of transport page, there is a section that has a list of tips on getting started. This section can include things like buying the equipment, starting a programme and joining a group for support.
     <br>
     <img src="assets/images/readme-images/features/alternative-transport-tips-section.png">
 </details>
 <details><summary>Contact form (Click to expand)</summary>
+    <br>
     The contact form can be used for users to reach out about the programme. It includes validation on the first name, last name, email address and message so that it cannot be submitted without them. The phone number is optional. There is also an option radio button selection to encourage users to stay on topic, but they can also choose to ask a general question.
     <br>
     <img src="assets/images/readme-images/features/contact-form.png">
 </details>
 <details><summary>Contact Address and Map (Click to expand)</summary>
+    <br>
     The contact address and contact map on the Contact page provides the user with a physical location of the Cork City Council, which also creates a sense of trust since the user is likely located in the Cork Community.
     <br>
     <img src="assets/images/readme-images/features/contact-address-and-map.png">
