@@ -64,7 +64,7 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 </details>
 <details><summary>What to change section (Click to expand)</summary>
     <br>
-    The "What we want to change" section provides the user with context as to what the the problem is and why we should solve it.
+    The "What we want to change" section provides the user with context as to what the problem is and why we should solve it.
     <br>
     <img src="assets/images/readme-images/features/what-to-change-section.png">
 </details>
@@ -76,7 +76,7 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 </details>
 <details><summary>Footer (Click to expand)</summary>
     <br>
-    The footer serves to show that the intiative is by the Cork City Council. It also provides some useful related links and to the contact page. Social links to the Cork City Council's social pages are also there. 
+    The footer serves to show that the initiative is by the Cork City Council. It also provides some useful related links and to the contact page. Social links to the Cork City Council's social pages are also there. 
     <br>
     <img src="assets/images/readme-images/features/footer.png">
 </details>
@@ -125,7 +125,7 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 7. [Box Shadow Generator:](https://cssgenerator.org/box-shadow-css-generator.html)
     - Used to generate the box shadow for the sticky header
 8. [Fancy Border Radius Generator:](https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/)
-    - Fancy border radius generator was used to create the unusal accompanying image shapes that were used on the homepage and contact page.
+    - Fancy border radius generator was used to create the unusual accompanying image shapes that were used on the homepage and contact page.
 9. [SVG Repo:](https://www.svgrepo.com/)
     - SVG Repo was used once for the icon of the skateboarder, which wasn't available on FontAwesome.
 ## Testing
@@ -170,7 +170,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing Performance
 
-I used the [Pagespeed Insights tool](https://pagespeed.web.dev/) to check the my website's speed, best practices and accessibility. Here are the results:
+I used the [Pagespeed Insights tool](https://pagespeed.web.dev/) to check my website's speed, best practices and accessibility. Here are the results:
 
 #### Mobile:
 <details><summary>Homepage - Mobile (Click to expand)</summary>
@@ -248,7 +248,7 @@ I used the [Pagespeed Insights tool](https://pagespeed.web.dev/) to check the my
 
         1. Upon entering the site, users are presented with a hero image that has 2-3 images of alternative forms of transport, depending on the screen size. There is also an overlay (or semi-overlay on mobile) that has the clear and concise name "Cork Car Cut" with a clarifying subheading and a call-to-action button.
         2. The main point is made immediately with the hero image and its text overlay.
-        3. The user can click the call to action button to scroll to the how to parcipate section to get started quickly, they can scroll through the site normally, or they can use the navigation menu items. 
+        3. The user can click the call to action button to scroll to the "How to participate" section to get started quickly, they can scroll through the site normally, or they can use the navigation menu items. 
 
     2. As a First Time Visitor, I want to easily navigate through the site to find relevant information about the different forms of alternative transport available.
 
@@ -259,7 +259,7 @@ I used the [Pagespeed Insights tool](https://pagespeed.web.dev/) to check the my
     3. As a First Time Visitor, I want to see the organization's (Cork City Council) social media presence to gauge its trustworthiness.
         1. In the footer, I have included the Cork City Council logo and a caption that the initiative is from the Cork City Council. 
         2. In the footer, there are also links to the Cork City Council's website, one of their resources on transportation and social icons that lead to their social media pages.
-        3. On the Contact page, there is also an image of Cork City Hall, where the City Council meet, as well as the Cork City Countcil's address.
+        3. On the Contact page, there is also an image of Cork City Hall, where the City Council meet, as well as the Cork City Council's address.
 
 -   #### Returning Visitor Goals
 
@@ -271,14 +271,14 @@ I used the [Pagespeed Insights tool](https://pagespeed.web.dev/) to check the my
 
     2. As a Returning Visitor, I want to quickly navigate to the different forms of alternative transport pages that suit my needs.
 
-        1. The call-to-action button scrolls down to the "How to partipate" section, which has all the alternative forms of transport and accompanying images for clarity.
+        1. The call-to-action button scrolls down to the "How to participate" section, which has all the alternative forms of transport and accompanying images for clarity.
         2. The header is sticky so that wherever the user is on the page, it is accessible. The header contains a dropdown with all the alternative forms of transport available.
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to stay informed about new alternative forms of transport that are added to the initiative.
 
-        1. They new forms of alternative transform would be added to the navigation menu.
+        1. The new forms of alternative transport would be added to the navigation menu.
         2. New forms of transport can also be found in the "How to participate" section.
 
     2. As a Frequent User, I want to see updated resources on my most suited forms of alternate transport.
@@ -357,7 +357,7 @@ $ git clone https://github.com/stephendawsondev/Cork-Car-Cut
 
 - [Fancy Border Radius Generator](https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/) was used to create the unusal accompanying image shapes that were used on the homepage and contact page.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For the contact forms structre for the radio buttons and their labels in the contact form.
+-   [MDN Web Docs](https://developer.mozilla.org/) : For the contact form's structure for the radio buttons and their labels (Inputs inside labels)
 
 ### Content
 
