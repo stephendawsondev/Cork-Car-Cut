@@ -129,6 +129,20 @@ nav>ul {
     position: relative;
 }
 
+.nav__item.dropdown button {
+    background-color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.nav__item.dropdown button:hover {
+    color: #037f0f;
+}
+
 .dropdown-list {
     background-color: #fff;
     position: absolute;
@@ -138,13 +152,12 @@ nav>ul {
     padding-left: 0;
 }
 
-
-a+.dropdown-list {
-    display: none;
+button+.dropdown-list {
+    visibility: hidden;
 }
 
-a.dropdown--active+.dropdown-list {
-    display: block;
+.nav__item.dropdown:focus-within .dropdown-list {
+    visibility: visible;
 }
 
 .dropdown__item {

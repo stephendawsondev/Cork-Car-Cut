@@ -59,7 +59,7 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 ### Site sections
 <details><summary>Sticky header (Click to expand)</summary>
     <br>
-    The sticky header contains three menu items. One item is a dropdown item. It uses a small bit of JavaScript, which was a requirement to make it accessible. The user can use the `Escape` key to dismiss the dropdown menu. The sticky header also stays on the page as the user scrolls, so it is always there when they need it.
+    The sticky header contains three menu items. One item is a dropdown item made with CSS. The sticky header also stays on the page as the user scrolls, so it is always there when they need it.
     <br>
     <img src="assets/images/readme-images/features/sticky-header.png">
 </details>
@@ -114,7 +114,6 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -306,7 +305,6 @@ I used the [Pagespeed Insights tool](https://pagespeed.web.dev/) to check my web
 ### Bugs encountered
 
 - The header was overlapping my section title when I used the scroll to section. I was able to resolve it by using the `scroll-margin-top` CSS property, which I learned about on the [MDN Website](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-top).
-- For the dropdown menu in the navigation, the JavaScript I had was using the `toggleAttribute` method, but it was removing the `aria-expanded` attribute instead of setting it to false. I resolved that by using `setAttribute` instead of `toggleAttribute` since I was able to specify its value.
 - On my product cards, the images were overflowing their container when I added a border to them. I fixed this bug by adding `box-sizing: border-box` to them so that it factored in the width of the border too.
 - The image in the "What we want to change" section was running over into the section below it on larger screen sizes. I found this was because the image was using float, so I instead used flexbox for its layout on larger screen sizes.
 
@@ -363,9 +361,11 @@ $ git clone https://github.com/stephendawsondev/Cork-Car-Cut
 
 -   [Box Shadow Generator](https://cssgenerator.org/box-shadow-css-generator.html) was used to generate the box shadow for the sticky header
 
-- [Fancy Border Radius Generator](https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/) was used to create the unusal accompanying image shapes that were used on the homepage and contact page.
+-   [Fancy Border Radius Generator](https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/) was used to create the unusal accompanying image shapes that were used on the homepage and contact page.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For the contact form's structure for the radio buttons and their labels (Inputs inside labels)
+
+-   [ModernCSS Website](https://moderncss.dev/css-only-accessible-dropdown-navigation-menu/): Idea to use `focus-within` for dropdown menu
 
 ### Content
 

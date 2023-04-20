@@ -35,9 +35,10 @@
                         <a href="index.html" class="nav__link">Home</a>
                     </li>
                     <li class="nav__item dropdown">
-                        <a href="#" class="nav__link active" aria-haspopup="true" aria-expanded="false"
-                            role="button">Getting Started <i class="fa-solid fa-chevron-down"></i></a>
-                        <ul class="dropdown-list" role="menu">
+                        <button class="nav__link" type="button" aria-haspopup="true"
+                            aria-controls="dropdown-list">Getting
+                            Started <i class="fa-solid fa-chevron-down"></i></button>
+                        <ul id="dropdown-list" class="dropdown-list" role="menu">
                             <li class="dropdown__item"><a href="walk-or-roll.html" class="dropdown__link"
                                     role="menuitem">Walk or Roll</a></li>
                             <li class="dropdown__item"><a href="running.html" class="dropdown__link"
@@ -116,7 +117,8 @@
                                         for a map-based view of Dublin services.</li>
                                     <li>Lift Sharing</li>
                                 </ul>
-                                <a href="https://getthere.ie/" target="_blank" aria-label="Opens in new tab">Click here to go to the GetThere.ie's
+                                <a href="https://getthere.ie/" target="_blank" aria-label="Opens in new tab">Click here
+                                    to go to the GetThere.ie's
                                     website</a>
                             </div>
                         </div>
@@ -140,11 +142,15 @@
                 <h4>Quicklinks</h4>
                 <ul>
                     <li>
-                        <a href="https://www.corkcity.ie/" target="_blank" aria-label="Go to the Cork city council website (Opens in new tab)">Cork City Council website</a>
+                        <a href="https://www.corkcity.ie/" target="_blank"
+                            aria-label="Go to the Cork city council website (Opens in new tab)">Cork City Council
+                            website</a>
                     </li>
                     <li>
                         <a href="https://www.nationaltransport.ie/planning-and-investment/strategic-planning/regional-metropolitan-area-transport-strategies/cork-metropolitan-area-transport-strategy/"
-                            target="_blank" aria-label="See the Cork Metropolitan Area Transport Strategy (Opens in new tab)">Cork metropolitan area transport strategy</a>
+                            target="_blank"
+                            aria-label="See the Cork Metropolitan Area Transport Strategy (Opens in new tab)">Cork
+                            metropolitan area transport strategy</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact page</a>
@@ -168,8 +174,6 @@
             </div>
         </div>
     </footer>
-    <!-- JavaScript for dropdown -->
-    <script src="assets/js/main.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/65aa973f6f.js" crossorigin="anonymous"></script>
 </body>
