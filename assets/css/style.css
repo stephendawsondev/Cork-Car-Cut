@@ -120,7 +120,7 @@ nav>ul {
     font-size: 0.5rem;
 }
 
-.active {
+.active, .nav__item.dropdown button.active {
     color: #037f0f;
     border-bottom: 1px solid #037f0f;
 }
