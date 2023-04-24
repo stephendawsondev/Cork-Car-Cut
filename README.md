@@ -307,6 +307,7 @@ I used the [Pagespeed Insights tool](https://pagespeed.web.dev/) to check my web
 - The header was overlapping my section title when I used the scroll to section. I was able to resolve it by using the `scroll-margin-top` CSS property, which I learned about on the [MDN Website](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-top).
 - On my product cards, the images were overflowing their container when I added a border to them. I fixed this bug by adding `box-sizing: border-box` to them so that it factored in the width of the border too.
 - The image in the "What we want to change" section was running over into the section below it on larger screen sizes. I found this was because the image was using float, so I instead used flexbox for its layout on larger screen sizes.
+- For the CSS only menu, the menu didn't expand on iOS because Apple has made a decision not to make elements receive focus on tap. Instead, I added a media query so that the hover affect applies to mobile devices, but then on laptops, the element still needs to receive focus.
 
 ## Deployment
 
