@@ -848,7 +848,8 @@ address p {
     }
 }
 
-@media screen and (max-width: 900px){
+/* Fix for dropdown menus on iOS */
+@media screen and (max-width: 768px){
     .nav__item.dropdown:hover .dropdown-list {
         visibility: visible;
     }
