@@ -847,3 +847,9 @@ address p {
         left: 25%;
     }
 }
+
+@media screen and (max-width: 900px){
+    .nav__item.dropdown:hover .dropdown-list {
+        visibility: visible;
+    }
+}
